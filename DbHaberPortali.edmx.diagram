@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="f036b02915ad4dac8acd93875579e8e8" Name="Diagram1">
+        <EntityTypeShape EntityType="DbHaberPortaliModel.sysdiagram" Width="1.5" PointX="0.75" PointY="0.75" />
+        <EntityTypeShape EntityType="DbHaberPortaliModel.tbl_AltYorum" Width="1.5" PointX="3" PointY="5.75" />
+        <EntityTypeShape EntityType="DbHaberPortaliModel.tbl_Begeni" Width="1.5" PointX="8.25" PointY="6" />
+        <EntityTypeShape EntityType="DbHaberPortaliModel.tbl_Haberler" Width="1.5" PointX="6" PointY="5" />
+        <EntityTypeShape EntityType="DbHaberPortaliModel.tbl_Kategori" Width="1.5" PointX="3.75" PointY="3.125" />
+        <EntityTypeShape EntityType="DbHaberPortaliModel.tbl_Kullanici" Width="1.5" PointX="0.75" PointY="5" />
+        <EntityTypeShape EntityType="DbHaberPortaliModel.tbl_Okunma" Width="1.5" PointX="8.25" PointY="3" />
+        <EntityTypeShape EntityType="DbHaberPortaliModel.tbl_Yorum" Width="1.5" PointX="8.25" PointY="8.625" />
+        <AssociationConnector Association="DbHaberPortaliModel.FK_tbl_AltYorum_tbl_Kullanici" />
+        <AssociationConnector Association="DbHaberPortaliModel.FK_tbl_AltYorum_tbl_Yorum" />
+        <AssociationConnector Association="DbHaberPortaliModel.FK_tbl_Begeni_tbl_Haberler" />
+        <AssociationConnector Association="DbHaberPortaliModel.FK_tbl_Begeni_tbl_Kullanici" />
+        <AssociationConnector Association="DbHaberPortaliModel.FK_tbl_Etkilesim_tbl_Haberler" />
+        <AssociationConnector Association="DbHaberPortaliModel.FK_tbl_Haberler_tbl_Kategori" />
+        <AssociationConnector Association="DbHaberPortaliModel.FK_tbl_Haberler_tbl_Kullanici" />
+        <AssociationConnector Association="DbHaberPortaliModel.FK_tbl_Okunma_tbl_Haberler" />
+        <AssociationConnector Association="DbHaberPortaliModel.FK_tbl_Etkilesim_tbl_Kullanici" />
+        <AssociationConnector Association="DbHaberPortaliModel.FK_tbl_Okunma_tbl_Kullanici" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
